@@ -15,5 +15,4 @@ x <- runif(1000, 0, 100)
 y <- m*x+b+epsilon
 
 plot(x,y, cex=0.5)
-###
-abline(lm(y~x), lty=2, col="red", lwd=2)
+
